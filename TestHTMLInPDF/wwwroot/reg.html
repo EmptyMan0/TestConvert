@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>REG</title>
+	
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+			
+            html{
+                padding: 0%;
+                margin: 0;
+                font-family: verdana, arial, sans-serif;
+            }
+				
+            body {
+			    padding: auto;
+                margin: auto;
+                color: #fff;
+               
+                
+                display: flex;
+                flex-direction: column;
+            }
+ 
+            main {
+                display: flex;
+                flex-direction: column;
+            }
+ 
+            article {
+			
+               background: linear-gradient(180deg, #319439 0%, #84B54D 100%);
+                flex: 2 2 12em;
+                padding: 1em;
+            }
+ 
+            nav, aside {
+                flex: 1;
+                background: #585858;
+            }
+ 
+            nav {
+                order: -1;
+            }
+             
+            header, footer {
+                flex: 0 0 5em;
+                background-color: #E8CC72;
+				
+            }
+			.div_baton_white{
+				
+				margin-top: 2%;
+				
+				padding: 8px 59px;
+				
+				
+			
+			}
+			.div_baton{
+				 display: flex;
+			    justify-content: center;
+				
+			
+			
+			
+			}
+			.div_baton_b{
+				
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				padding: 8px 59px;
+				background: #E8CC72;
+				box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);	/*тень  */
+				border-radius: 10px;
+				
+			}
+			.text_hedr_left{
+				margin-left: 50%
+			}
+			.text_hedr_right{
+				margin-right: 50%
+			}
+			P.blocktext {
+			
+			margin-left: auto;
+			margin-right: auto;
+			
+
+			
+			font-style: normal;
+			font-weight: 700;
+			font-size: 40px;
+			line-height: 114.19%;
+			/* or 46px */
+
+			text-align: center;
+			letter-spacing: 0.075em;
+
+			color: #FFFFFF;
+			}
+			p.podtext{
+			margin-left: auto;
+			margin-right: auto;
+			
+
+			
+			font-style: normal;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 114.19%;
+			/* or 46px */
+
+			text-align: center;
+			letter-spacing: 0.075em;
+
+			color: #FFFFFF;
+			
+			
+			
+			}
+	
+			.text-field {
+			  display: flex;
+			  justify-content: center;
+			  margin: 5px;
+			 
+
+			}
+			/* стили для label */
+			.text-field__label {
+			  display: block;
+			  margin-bottom: 0.25rem;
+			}
+			/* стили для input */
+			.text-field__input {
+			  display: block;
+			  align-items: center;
+			
+
+			  height: calc(2.25rem + 2px);
+			  padding: 0.375rem 0.75rem;
+			  
+			  font-family: inherit;
+			  font-size: 1rem;
+			  font-weight: 400;
+			  line-height: 1.5;
+			  color: #212529;
+			  
+			  background-color: #fff;
+			  background-clip: padding-box;
+			  border: 1px solid #bdbdbd;
+			  
+		      border-radius: 10px;
+			  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+			}
+			
+			
+		
+			div_b.button{
+			
+				margin: 0 43%;
+				display: block;
+			
+				font-style: normal;
+				font-weight: 400;
+
+				line-height: 114.19%;
+
+			}
+			
+            @media screen and (min-width: 600px) {
+                 
+                body{
+                    min-height: 100vh;
+                }
+                main {
+                    flex-direction: row;
+                    min-height: 100%;
+                    flex: 1 1 auto;
+                }
+            }
+			 .leftstr, .rightstr, .center {
+				float: left; /* Обтекание справа */ 
+				width: 48%; /* Ширина текстового блока */ 
+			   }
+			   .rightstr {
+				text-align: right; /* Выравнивание по правому краю */ 
+			   }
+			   .leftstr, .rightstr {
+				float: left; /* Обтекание справа */ 
+				width: 48%; /* Ширина текстового блока */ 
+			   }
+			   .rightstr {
+				text-align: right; /* Выравнивание по правому краю */ 
+			   }
+			   .center{
+			      top: 82px; /* Расстояние от верхнего края */
+    left: 170px; /* Расстояние от левого края */ 
+    bottom: 0; right: 0;
+			    
+			   
+			   }
+			   
+			   
+        </style>
+    </head>
+    <body>
+        <header>
+				<div class="leftstr">
+					<p >NEW DELIVERY</p>
+				</div>
+			 
+				<div class="rightstr">
+					<p >Служба поддержки</p>
+				</div>
+				<div class="leftstr">
+					<p ></p>
+				</div>
+			  <div class="rightstr">
+					<p>8 (4212) 92 - 96 - 35</p>
+				</div>
+			  
+			<div style="clear: left">
+					</div>
+           
+        </header>
+        <main>
+            <article>
+    
+				<p class="blocktext"> Регистрация </p>
+				 
+				<div class="text-field">
+				  <input class="text-field__input" type="text" name="Фамилия" id="login" placeholder="Фамилия" value="">
+				</div>
+				
+				<div class="text-field">
+				  <input class="text-field__input" type="text" name="Имя" id="login" placeholder="Имя" value="">
+				</div>
+				
+			<div class="text-field">
+				  <input class="text-field__input" type="text" name="Номер телефона" id="login" placeholder="Номер телефона" value="">
+				</div>
+				<div class="text-field">
+				  <input class="text-field__input" type="text" name="Email" id="login" placeholder="Email" value="">
+				</div>
+				<div class="text-field">
+				  <input class="text-field__input" type="text" name="Пароль" id="login" placeholder="Пароль" value="">
+				</div>
+				<div class="text-field">
+				  <input class="text-field__input" type="text" name="Повторите пароль" id="login" placeholder="Повторите пароль" value="">
+				</div>
+				
+				
+				<div>
+					<input  type="checkbox">
+					<p>Согласен с политикой конфеденциальности</p>
+				 </div>
+				<div style="clear: left">
+					</div>
+					
+				<div class="div_baton">
+					<baton class="div_baton_b" >регистрация</baton>
+				</div>
+				<div class="div_baton">
+					<baton class="div_baton_white">вход</baton>
+				</div> 
+					
+					
+            </article>
+        </main>
+    </body>
+</html>
+

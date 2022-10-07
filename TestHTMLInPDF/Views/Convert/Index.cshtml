@@ -1,0 +1,33 @@
+﻿<h1>HI</h1>
+
+<head>
+    <link rel="stylesheet" href="~/css/FRR.css" />
+</head>
+<style>
+ /*   .c11s {
+         display: block;
+        width: 10%;
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+  */
+    
+
+</style>
+<body >
+    <div class="loader" style="--b: 20px;--c:#000;width:80px;--n:15;--g:7deg" > </div >
+    <form asp-action="ConvertHTMLInPDF" asp-controller="Convert" method="post" enctype="multipart/form-data" >
+        <label > Выбирете файл</label >
+        <input  id="batchUsers" name="file"  type="file" multiple >
+        <button type="submit" class="btn btn-success" > Convert</button >
+    </form >
+</body >
